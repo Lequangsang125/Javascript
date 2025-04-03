@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- trỏ vào thẻ p vào in vào trong nó  -->
+    <button onclick="document.getElementById('demo').innerHTML = Date()"> bấm vào đây </button>
+    <p id="demo"></p>
+
+    <!-- trỏ thẳng vào button và in vào nó -->
+    <button onclick="this.innerHTML = Date()">bấm</button>
+
+    <!-- trỏ vào hàm  -->
+    <button onclick="displayDate()">Bấm</button>
+    <p id="demo1"></p>
+    <script>
+        function displayDate(){
+            document.getElementById('demo1').innerHTML = Date()
+        }
+    </script>
+</body>
+</html>
