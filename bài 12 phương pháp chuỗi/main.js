@@ -27,6 +27,22 @@ string1[0] = 'N';
 console.log(string1[20]); // undefined vì k tìm thấy 
 
 
+//trích xuất phần tử chuỗi
+//slice
+let string2 = 'lequangsang';
+console.log(string2.slice(1,2)); //e
+console.log(string2.slice(1)); //equangsang
+console.log(string2.slice(-1)); //g
+
+//substring()
+let text5 = "5";
+let padded = text5.padStart(4,"0");
+console.log(padded);
+
+
+
+
+
 
 
 
