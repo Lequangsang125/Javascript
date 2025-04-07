@@ -13,6 +13,6 @@
 - ❓ Vấn đề là gì?
 - Bạn muốn tạo một counter tăng dần mỗi lần gọi add(), nhưng vẫn đảm bảo:
 Không ai bên ngoài có thể sửa biến đếm
-Giá trị không bị reset mỗi lần gọi
+Giá trị không bị reset mỗi lần gọ
 
 
